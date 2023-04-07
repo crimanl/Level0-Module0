@@ -63,5 +63,10 @@ if __name__ == '__main__':
     my_kirk.forward(80)
     my_kirk.right(90)
     my_kirk.forward(100)
+    my_kirk.forward(200)
+    my_kirk.right(90)
+    my_kirk.forward(200)
+    my_kirk.left(90)
+    my_kirk.forward(200)
     # ===================== DO NOT EDIT THE CODE BELOW ============================
     turtle.done()
