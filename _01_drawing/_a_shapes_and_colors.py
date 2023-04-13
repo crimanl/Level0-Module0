@@ -26,9 +26,9 @@ if __name__ == '__main__':
     # # Now put the forward and left/right code into a for loop to repeat 4 times.
     # # TEST    Did your turtle draw a square?
     # my_kirk.begin_fill()
-    # for i in range (4):
-    #     my_kirk.forward(100)
-    #     my_kirk.forward(10)
+    for i in range (4):
+        my_kirk.forward(100)
+        my_kirk.forward(10)
     # my_kirk.end_fill()
     # Move your turtle to a new place on the screen using .goto(x, y)
     # x=0 and y=0 is the center of the screen

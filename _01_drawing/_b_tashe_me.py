@@ -37,7 +37,7 @@ def screen_clicked(x, y):
     # moustache.showturtle()
     moustache.showturtle()
     # 5. Move your moustache to a new location using .goto(x, y)
-    moustache.goto(10,10)
+    moustache.goto(x, y)
 
 if __name__ == '__main__':
     window = turtle.Screen()
