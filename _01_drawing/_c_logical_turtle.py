@@ -13,7 +13,7 @@ def screen_clicked(x, y):
     print('You pressed: x=' + str(x) + ', y=' + str(y))
     
     # 6. Call the turtle .penup() method
-    my_pet.penup(method)
+    my_pet.penup()
     # 7. Move the turtle to a new location using .goto(x, y)
     my_pet.goto(x, y)
 

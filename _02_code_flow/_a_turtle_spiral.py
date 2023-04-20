@@ -14,13 +14,14 @@ if __name__ == '__main__':
     window.bgcolor('white')
     
     # Make a new turtle
-    
+    my_kirk = turtle.Turtle()
     # This code sets our shape to a turtle
-    
+    my_kirk.shape('turtle')
     # Set your turtle's speed (0=fastest, 1=slowest, 10=faster)
-    
+    my_kirk.speed(2)
     # Set your turtle's color using .color('green')
-    
+    my_kirk.color('orange')
+    my_kirk.pencolor('blue')
     # Use a loop to repeat a the code below 50 times
         
         # Set the turtle color to a random color
