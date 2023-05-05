@@ -50,7 +50,7 @@ if __name__ == '__main__':
     set_background ('emoji.png')
 
     # 3. Create a variable called moustache and set it equal to add_moustache('moustache1.gif')
-    moustache = add_moustache('moustache1.gif')
+    moustache = add_moustache('moustache3.gif')
 
     # ===================== DO NOT EDIT THE CODE BELOW ============================
     window.onclick(screen_clicked)

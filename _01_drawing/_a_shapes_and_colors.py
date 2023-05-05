@@ -15,7 +15,7 @@ if __name__ == '__main__':
 
     # Set your turtle's color using .color('green') and .pencolor('blue')
     # my_kirk.color('orange')
-    # my_kirk.pencolor('blue')
+    # my_kirk.pencolor('bule')
     #
     # # Move your turtle forward using .forward(100)
     # # TEST    Did your turtle move forward?
@@ -67,6 +67,6 @@ if __name__ == '__main__':
     my_kirk.right(90)
     my_kirk.forward(200)
     my_kirk.left(90)
-    my_kirk.forward(200)
+    my_kirk.right(80)
     # ===================== DO NOT EDIT THE CODE BELOW ============================
     turtle.done()
