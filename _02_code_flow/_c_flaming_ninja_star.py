@@ -19,7 +19,7 @@ if __name__ == '__main__':
 
     baseSize = 200          # the size of the black part of the star
     flameSize = 130         # the length of the flaming arms
-    
+
     # Make a new turtle
     my_kirk = turtle.Turtle()
     # Make the turtle shape 'turtle', .shape('turtle')
@@ -30,33 +30,33 @@ if __name__ == '__main__':
     my_kirk.speed(0)
     # Use a for loop to repeat all of the code below ONE time (we will change
     #   this later)
-    for i in range(6):
+    for i in range(100):
         # Set the turtle .fillcolor() to orange
         my_kirk.fillcolor('orange')
         # Call the turtle .begin_fill() function
-        
+        my_kirk.begin_fill()
         # TURN RIGHT     Turn the turtle 1/8 of a circle (hint: 360 degrees
         #                will turn a full circle)
-        
+        my_kirk.right(360/8)
         # DRAW           Move the turtle 64 pixels
-        
+        my_kirk.forward(64)
         # TURN LEFT      Turn the turtle 40 degrees to the LEFT. (Negative
         #                numbers will turn the turtle counter-clockwise.)
-        
+        my_kirk.left(40)
         # DRAW FLAME     Move the turtle the distance in the variable flameSize
-        
+        my_kirk.forward(flameSize)
         #                Turn the turtle to the right 170 degrees
-         
+        my_kirk.right(170)
         #                Move the turtle the distance in the variable flameSize (again)
-         
+        my_kirk.forward(flameSize)
         #  TURN RIGHT    Turn the turtle 62 degrees to the right
-        
+        my_kirk.right(62)
         #  DRAW          Move the turtle the distance in the variable baseSize
-        
+        my_kirk.forward(baseSize)
         # Call the turtle .end_fill() method
-        
+        my_kirk.end_fill()
     # Hide your turtle so you can see the pattern.
-        
+    my_kirk.hideturtle()
     # TEST   Run the program. Check that your shape is the same as the first
     #        picture in the recipe. This is one arm of the ninja star.
 
